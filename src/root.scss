@@ -1,0 +1,25 @@
+body {
+  background-color: blanchedalmond;
+  background-clip: border-box;
+  animation: MyAnimation 2s;
+  // background: url('../../../яхта.jpg') center center no-repeat;
+  #root {
+    background-clip: border-box;
+    color: steelblue;
+    display: grid;
+    filter: grayscale(50%);
+    animation: MyAnimation 2s;
+  } 
+}
+
+@keyframes MyAnimation {
+  0% { left: 0; }	
+ 50% { left: 200px; }	
+100% { left: 20px; }	
+}
+
+h1 {
+  color: navy;
+  background-clip: text;
+  animation: MyAnimation 2s;
+}
